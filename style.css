@@ -1,0 +1,102 @@
+
+/* style.css */
+body {
+    background-color: darkcyan; /* Example color name */
+}
+
+header {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.texto {
+    text-align: left;
+}
+
+.boton {
+    background-color: gray;
+    color: beige
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicio {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    border: 1px gold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: goldenrod;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
